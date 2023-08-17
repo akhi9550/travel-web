@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: Okra, Helvetica, sans-serif;
+}
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: #43bbdf;
+    text-shadow: 0px 1px black;
+    margin-bottom: 5px;
+}
+.navbar-toggler span{
+    color: #43bbdf; 
+}
+navbar-nav{
+    margin-left:20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color : #43bbdf;
+    color: white;
+}
+#navbar form button{
+    background-color: #43bbdf;
+    color: white;
+    border: none;
+
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(./frame.jpg);
+}   
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black ;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black ;
+    margin-top: 5px;
+}
+#switch{
+    color: #43bbdf;
+}
+/* .changecontent::after{
+    content: '';
+    color: #43bbdf;
+    text-shadow: 0px 1px 1px black ;
+    animation: changetxt 10s infinite linear;
+ }
+ @keyframes changetxt {
+    0%{content : " Kerala";}
+    10%{content : " Delhi";}
+    20%{content : " Goa";}
+    30%{content : " Sikkim";}
+    40%{content : " Kashmir";}
+    50%{content : " Mumbai";} 
+  } */
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black ;
+    margin-bottom: 30px;
+    margin-top: 5px;
+
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #43bbdf;
+    color: white;
+}
+@media(max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media(max-width:450px){
+    .home .content h5{
+       font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.main-txt h1{
+    color: #43bbdf;
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+   margin-top: 30px; 
+}
+.book form input{
+    padding: 10px;
+    margin-top: 25px;
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+
+}
+.book form textarea{
+    border: none;
+    margin-top: 25px;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+
+}
+.book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #43bbdf;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
+@media(max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
+.main-txt h1{
+    color: #43bbdf;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: gold;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #43bbdf;
+    color: white;
+    border-radius: 5px;
+}
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #43bbdf;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+} 
+.gallary{
+    margin-top: 50px;
+
+}
+.gallary .card{
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.about .card{
+    border-radius: 10px;
+    
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #43bbdf;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+@media(max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    color: #43bbdf;
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px #43bbdf;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #43bbdf;
+}
